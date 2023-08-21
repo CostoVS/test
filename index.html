@@ -87,6 +87,30 @@
 </style>
 <!-- end color of text for white theme -->
 
+
+<!-- forms css -->
+<style>
+    
+.iframe-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 100%; /* Adjust this value for the desired aspect ratio (480px / 640px * 100) */
+    overflow: hidden;
+}
+
+.iframe-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+</style>
+<!-- end forms css -->
+
+
+
+
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home" class="dark-theme">
@@ -286,13 +310,14 @@ Our unswerving dedication to our clients, employees, and the values that underpi
     <div class="contact-section">
         <div class="overlay"></div>
         <!-- container -->
-        <div class="container">
-            <div class="col-md-10 col-lg-8 m-auto">
-                
-                
-                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSerpVSJsaRaW3ZlpMRvIkHDxA46FMJYhVAepNwPgR2D1sTtjw/viewform?embedded=true" width="640" height="856" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-                
-            </div>
+
+
+        <!-- forms -->
+        <div class="iframe-container">
+            <iframe src="https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAANAAV9HLnFUNjZVOUFBSzVEVDE5U0s5S1dVVDBHMDYxQS4u&embed=true" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <!-- end forms -->
+
 
             <!-- footer -->
 
